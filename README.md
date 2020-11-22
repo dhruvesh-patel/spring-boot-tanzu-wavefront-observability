@@ -44,9 +44,7 @@ You can run below query and check USERS table is created with 5 rows in it (as w
 select * from USERS;
 ```
 
-5. To use Swagger UI, use this URL -  http://localhost:8221/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/
-
-6. Explore Rest APIs. This app defines following CRUD APIs.
+5. Explore Rest APIs. This app defines following CRUD APIs.
 
 ```
 GET /users
@@ -83,6 +81,6 @@ Sample Put Request -
 }
 ```
 
-7. Once you do this, hit few get requests again.
+6. Once you do this, hit few get requests again.
 
-8. Go to wavefront URL (noted while app start-up from console - Refer point 3 above) and see application observability params - real-time metrics, monitoring, and alerting.
+7. Go to wavefront URL (noted while app start-up from console - Refer point 3 above) and see application observability params - real-time metrics, monitoring, and alerting.
